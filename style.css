@@ -700,7 +700,7 @@ img{
         }
 
         .carrosel{
-            width: 110%;
+            width: 90%;
             max-width: 1400px;
             overflow: hidden;
             
@@ -708,7 +708,7 @@ img{
             left: 0;
         }
         .carrosel-services{
-            width: 90%;
+            width: 105%;
             margin: 0;
             left: 0;
         }
