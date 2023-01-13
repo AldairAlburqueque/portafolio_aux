@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="getsize();" onresize="getsize();">
+        
+        <div class="container">
+    
+            <div class="navbar">
+
+                <span class="icon-menu">
+                    <img src="./íconos/menu.svg" alt="menu" width="40px">
+                </span>
+                <ul class="menu" id="menu">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#acerca-de-mi">Acerca de mí</a></li>
+                        <li><a href="#mis-habilidades">Mis habilidades</a></li>
+                        <li><a href="#mi-portafolio">Mi portafolio</a></li>
+                        <li><a href="#contacto">Contacto</a></li>
+                </ul>
+                
+            </div>
+            <div class="container-section">
+                
+                <div class="header">
+                    <div class="photo-mobil">
+            
+                        <div class="img_mobile">
+                            <img  src="./Logos- Imágenes/photo mobile.png" alt="Jorge">
+                        </div>
+                    </div>
+
+                    <div class="photo-desktop">
+                        
+                        <div class="img-desktop">
+                            <img src="./Logos- Imágenes/photo desktop.png" alt="Jorge">
+                        </div>
+                    </div>
+                    <div class="presentacion">
+                        <div class="header_name">
+                        <p>Soy</p>
+                        <p>Jorge</p>
+                    </div>
+                    <div class="header-text">
+                        <p class="header-text-p">Marketing y diseñador UX/UI</p>
+                        <p class="header-text-p"><span class="header-text-span">3 años</span>  experiencia</p>
+                    </div>
+            
+                    <div class="icon-one">
+                        <a href="https://www.linkedin.com/feed/" target="_blank"><img src="./íconos/linkedin.svg" alt="Linkedin"></a>
+                        <a href="https://www.instagram.com" target="_blank"><img src="./íconos/instagram.svg" alt="Instagram"></a> 
+                        <a href="https://twitter.com/" target="_blank"><img  src="./íconos/twitter.svg" alt="Twitter"></a>
+                    
+                    </div>
+                    </div>
+                    
+                    
+                </div> 
+                <div class="icon-two">
+                    <div class="icon-two-redes">
+                        <a href="https://www.google.com/" target="_blank"><img src="./íconos/google.svg" alt="google" width="30px" height="30px"></a>
+
+                        <a href="https://www.amazon.com/" target="_blank"><img src="./íconos/amazon.svg" alt="Amazon" width="30px" height="30px"></a>
+
+                        <a href="https://spotify.com/" target="_blank"><img src="./íconos/spotify.svg" alt="Spotify" width="30px" height="30px"></a>
+                    </div>
+                    
+
+
+
+                    <!-- <div class="social-two">
+                        
+                    </div>
+                    <div class="social-two">
+                        
+                    </div>
+                    <div class="social-two">
+                        
+                    </div> -->
+                    
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 id="acerca-de-mi">Acerca de mí</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Illo veritatis fugit omnis sunt, laborum odit inventore natus autem corporis quis itaque necessitatibus. Quibusdam accusantium exercitationem quasi vero doloribus alias ab?</p>
+            </div>
+            <div class="card"> 
+                <h2 id="services">Servicios</h2>
+                <div class="swiper carrosel">
+                    <div class="swiper-wrapper card-carrosel card-section">
+                        <div class="swiper-slide service-section">
+                            <div class="carrosel-services">
+                                <div class="sv">
+                                    <img src="./Vectores/Ellipse 14.svg" alt="elipse">
+                                </div>
+                                <div class="card-services-element"> 
+                                    <img src="./íconos/pencil.svg" alt="Pencil" class="icon-img">
+                                    <h3>UX/UI Design</h2>
+                                    <p>Desde diseño hasta implementacion del desarrollo</p> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide service-section">
+                            <div class="carrosel-services">
+                                <div class="sv">
+                                    <img src="./Vectores/Ellipse 14.svg" alt="elipse" class="svg-services">
+                                </div>
+                            
+                                <div class="card-services-element">
+                                    <img src="./íconos/speaker.svg" alt="Speaker" class="icon-img"> 
+                                    <h4>Marketing</h4>
+                                    <p>Desde diseño hasta implementacion del desarrollo</p>
+                                </div>
+                        
+                            </div>
+                        </div>
+                        <div class="swiper-slide service-section">
+                            <div class="carrosel-services">
+                                <div class="sv">
+                                    <img src="./Vectores/Ellipse 14.svg" alt="elipse" class="svg-sercices">
+                                </div>
+                            
+                                <div class="card-services-element">
+                                    <img src="./íconos/search.svg" alt="Search" class="icon-img">
+                                    <h4>Research</h4>
+                                    <p>Desde diseño hasta implementacion del desarrollo</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>   
+                </div>
+                
+            </div>
+            
+            <div class="card">
+                <h2 id="mis-habilidades">Mis habilidades</h2>
+                <div class="card-habilidades">
+                    <p>Marketing</p>
+                    <span class="card-porcentaje">85%</span>
+                    <div class="porcentaje">
+                        <div class="porciento"></div>
+                    </div>
+
+                    <p>UI Design</p>
+                    <span class="card-porcentaje">95%</span>
+                    <div class="porcentaje">
+                        <div class="porciento-two"></div>
+                    </div> 
+
+                    <p>UX Research</p>
+                    <span class="card-porcentaje">85%</span>
+                    <div class="porcentaje">
+                        <div class="porciento-tree"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card">
+                <h2 id="mi-portafolio">Portafolio</h2>
+
+                <div class="swiper swiper-portafolio">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide slide-portafolio">
+                            <img class="img-slide" src="./Logos- Imágenes/ejemplo5.jpg" alt="ejemplo5">
+                        </div>
+                        <div class="swiper-slide slide-portafolio">
+                            <img class="img-slide" src="./Logos- Imágenes/ejemplo3.jpg" alt="ejemplo3">
+                        </div>
+                        <div class="swiper-slide slide-portafolio">
+                            <img class="img-slide" src="./Logos- Imágenes/ejemplo2.jpg" alt="ejemplo2">
+                        </div>
+                        <div class="swiper-slide slide-portafolio">
+                            <img class="img-slide" src="./Logos- Imágenes/ejemplo1.jpg" alt="ejemplo1">
+                        </div>
+                    </div>
+                </div>
+            
+            </div>
+            
+            <div class="card">
+                <h2 id="contacto">Contacto</h2>
+                <div class="card-footer">
+                    <div class="card-contact">
+                        <img src="./Vectores/Ellipse 14.svg" alt="elipse">
+                        <div class="card-contact-element">
+                            <img src="./íconos/phone.svg" alt="phone">
+                            <h4>Número de celular</h4>
+                            <p>5523652412</p>
+                            
+                        </div>
+                    </div>
+
+                    <div class="card-contact">
+                        <img src="./Vectores/Ellipse 14.svg" alt="elipse">
+                        <div class="card-contact-element">
+                            <img src="./íconos/mail.svg" alt="email">
+                            <h4>Email</h4>
+                            <p>ejemplo@correo.com</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <p>Hecho con amor en Academlo</p>
+            </div>
+        </div> 
+    
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    <script src="./main.js"></script>
+    
+</body>
+</html>
