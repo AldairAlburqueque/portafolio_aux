@@ -528,30 +528,6 @@ img{
                 width: 27px;
                 height: 27px;
             }
-        /* .icon-two{
-            margin: -25px;
-            z-index: 300;
-            
-        }
-        .social-two{
-            display: flex;
-            justify-content: center;
-            width: 140px;
-            height: 80px;
-            margin: 50px;
-        }
-        .social-two a{
-            
-        }
-        .social-two img{
-            width: auto;
-            object-fit: cover;
-            display: block;
-            
-        } */
-
-
-
 
         .icon-two{
             display: flex;
@@ -677,12 +653,6 @@ img{
             margin: 0;
             
         }
-        /* .swiper-wrapper{
-            display: flex;
-            width: 100%;
-            max-width: 60%;
-            object-fit: cover;
-        } */
         .slide-portafolio{
             display: block;
             width: 100%;
@@ -709,19 +679,13 @@ img{
 
         }
     }
-    /* @media (min-width: 810px) {
-        .swiper-wrapper {
-          width: 800px;
-        }
-      } */
-      
-      
-      .card:nth-child(6){
+    
+    .card:nth-child(6){
         
         margin: 0;
         width: 100%;
-      }
-      .card:nth-child(4){
+    }
+    .card:nth-child(4){
         width: 100%;
         height: auto;
       }
@@ -747,7 +711,7 @@ img{
             left: 0;
         }
         .carrosel-services{
-            width: 100%;
+            width: 90%;
             margin: 0;
             left: 0;
         }
